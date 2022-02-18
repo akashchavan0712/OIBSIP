@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FONTAWESOME ===============--> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Akash Chavan</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Akash Chavan</a>
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt' ></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user'></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book'></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <i class='bx bx-briefcase-alt-2'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bxs-contact' ></i>
+                            </a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+                
+                <!-- Theme Change Button -->
+                <i class='bx bx-moon change-theme' id='theme-button' ></i>
+            </nav>
+
+
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greetings">Hello I'm</span>
+                            <h1 class="home__name">Akash Chavan</h1>
+                            <h3 class="home__education">Full-Stack Developer</h3>
+
+                            <div class="home__buttons">
+                                <a download = "" href="assets/pdf/Akash-Chavan-Resume.pdf" class="button button--ghost">
+                                    Download Resume
+                                </a>
+                                <a href="#about" class="button">
+                                    About Me
+                                </a>
+                            </div>
+                    </div>
+                    
+                    <div class="home__handle">
+                        <img src="assets/img/profile-5.png" alt="my-profile" class= "home__img">
+                    </div>
+                    
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/akash-chavan-242125198/" target="_blank" class="home__social-link">
+                            <i class='bx bxl-linkedin-square bx-sm'></i>
+                        </a>
+                        <a href="https://github.com/akashchavan0712" target="_blank" class="home__social-link">
+                            <i class='bx bxl-github bx-sm' ></i>
+                        </a>
+                        <a href="https://codepen.io/Akash0712" target="_blank" class="home__social-link">
+                            <i class='bx bxl-codepen bx-sm'></i>
+                        </a>
+                    </div>
+                    
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon'></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                    </a>
+
+                </div>
+            </section> 
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class = "section__subtitle">My Intro</span>
+                <h2 class="section__title">About Me</h2>
+                <div class="about__container container grid">
+                    <img src="assets/img/about.jpg" alt="about-img" class="about__img">
+                    <div class="about__data">
+                        <div class="about__info">
+                            <div class="about__box about-icon">
+                                <i class='bx bx-award'></i>
+                                <h3 class="about__title">Education</h3>
+                                <span class="about__subtitle">B.E.(IT)</span>
+                            </div>
+                            <div class="about__box about-icon">
+                                <i class='bx bx-briefcase-alt' ></i>
+                                <h3 class="about__title">Completed</h3>
+                                <span class="about__subtitle">10 + Projects</span>
+                            </div>
+                            <div class="about__box about-icon">
+                                <i class='bx bx-support'></i>
+                                <h3 class="about__title">Support</h3>
+                                <span class="about__subtitle">Available 24X7</span>
+                            </div>
+                        </div>
+
+                        <p class="about__discription">
+                            Hi, there i am Akash Chavan,<br>
+                            I like creating beautiful and amazing websites.<br>
+                            & also love to Design Prototypes.
+                            I also have good knowledge of programming languages &
+                            Software Development.<br>
+                            Aside from that I love listening to Music, Photography, Editing<br>
+                            and Most of all stuffing my face  
+                        </p>
+
+                        <a href="#contact" class="button">Contact Me</a>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+
+            <section class="skills section" id="skills">
+                    <span class="section__subtitle">My Abilities</span>
+                    <h2 class="section__title">My Skills</h2>
+
+                    <div class="skills__container container grid">
+                        <div class="skills__content one">
+                            <h3 class="skills__title">Frontend Technologies</h3>
+                            <div class="skills__box">
+                                <div class="skills__group">
+
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check'></i>
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check'></i>
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">Intermidiate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check'></i>
+                                        <div>
+                                            <h3 class="skills__name">Javascript</h3>
+                                            <span class="skills__level">Intermidiate</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills__group">
+                                    
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check' ></i>
+                                        <div>
+                                            <h3 class="skills__name">Bootstrap 5</h3>
+                                            <span class="skills__level">Intermidiate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check' ></i>
+                                        <div>
+                                            <h3 class="skills__name">ReactJS</h3>
+                                            <span class="skills__level">Intermidiate</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check' ></i>
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Intermidiate</span>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__content two">
+                            <h3 class="skills__title">Backend Technologies</h3>
+                            <div class="skills__box">
+
+                                <div class="skills__group">
+
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check'></i>
+                                        <div>
+                                            <h3 class="skills__name">MySQL</h3>
+                                            <span class="skills__level">Intermidiate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check'></i>
+                                        <div>
+                                            <h3 class="skills__name">MongoDB</h3>
+                                            <span class="skills__level">Intermidiate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check'></i>
+                                        <div>
+                                            <h3 class="skills__name">NodeJS</h3>
+                                            <span class="skills__level">Intermidiate</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="skills__group">
+                                    
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check' ></i>
+                                        <div>
+                                            <h3 class="skills__name">Git</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check'></i>
+                                        <div>
+                                            <h3 class="skills__name">Express JS</h3>
+                                            <span class="skills__level">Intermidiate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check'></i>
+                                        <div>
+                                            <h3 class="skills__name">Java</h3>
+                                            <span class="skills__level">Intermidiate</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </section>
+
+            <!--=============== SERVICES ===============-->
+            <section class="services section">
+                <span class="section__subtitle">My Services</span>
+                <h2 class = "section__title">What I offer</h2>
+
+                <div class="services__container container grid">
+
+                    <div class="services__card">
+                        <h3 class="services__title">Software<br>Developement</h3>
+                        <span class="services__button">See More 
+                            <i class='bx bx-right-arrow-alt bx-sm services__icon'></i> 
+                        </span>
+                        <div class="services__model">
+                            <div class="services__model-content">
+                                <i class='bx bx-x services__model-close'></i>
+                                <h3 class="services__model-title">Software Development</h3>
+                                <p class="services__model-description">
+                                    Currently learning various aspects of <br>
+                                    software engineering through academics.<br>
+                                </p>
+
+                                <ul class="services__model-list">
+                            
+                                    <li class="services__model-item">
+                                        <i class='bx bx-check services__model-icon' ></i>
+                                        <p class="services__model-info">
+                                            Creating User Interface Design.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__model-item">
+                                        <i class='bx bx-check services__model-icon' ></i>
+                                        <p class="services__model-info">
+                                            Tkinter(Python) is used for creating front-end of GUI application.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__model-item">
+                                        <i class='bx bx-check services__model-icon' ></i>
+                                        <p class="services__model-info">
+                                            Worked on projects using MySQL and MongoDB database. 
+                                        </p>
+                                    </li>
+
+                                    <li class="services__model-item">
+                                        <i class='bx bx-check services__model-icon' ></i>
+                                        <p class="services__model-info">
+                                            Good Knowledge of data structures and programming languages like Java and Cpp
+                                        </p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+
+                        <h3 class="services__title">UI/UX<br>Design</h3>
+                        <span class="services__button">See More 
+                            <i class="bx bx-right-arrow-alt services__icon"></i> 
+                        </span>
+
+                        <div class="services__model">
+                            <div class="services__model-content">
+                                <i class='bx bx-x services__model-close'></i>
+                                <h3 class="services__model-title">UI/UX Design</h3>
+                                <p class="services__model-description">
+                                    Designed multiple designs for websites and apps<br>
+                                    Done various mini projetcs in UI/UX<br>
+                                </p>
+
+                                <ul class="services__model-list">
+                            
+                                    <li class="services__model-item">
+                                        <i class='bx bx-check services__model-icon' ></i>
+                                        <p class="services__model-info">
+                                            Creating Elegant and Beutiful UI
+                                        </p>
+                                    </li>
+
+                                    <li class="services__model-item">
+                                        <i class='bx bx-check services__model-icon' ></i>
+                                        <p class="services__model-info">
+                                            Good Knowledge of Adobe XD and Figma
+                                        </p>
+                                    </li>
+
+                                    <li class="services__model-item">
+                                        <i class='bx bx-check services__model-icon' ></i>
+                                        <p class="services__model-info">
+                                            Studying various principals of human-computer interaction 
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+
+                        <h3 class="services__title">Web<br>Developement</h3>
+                        <span class="services__button">See More 
+                            <i class='bx bx-right-arrow-alt services__icon'></i> 
+                        </span>
+
+                        <div class="services__model">
+                            <div class="services__model-content">
+                                <i class='bx bx-x services__model-close'></i>
+                                <h3 class="services__model-title">Web Developement</h3>
+                                <p class="services__model-description">
+                                    Wroked on multiple Web-Developement Projects<br>
+                                    Continuously learning about new technologies<br>
+                                    in web developement
+                                </p>
+
+                                <ul class="services__model-list">
+                            
+                                    <li class="services__model-item">
+                                        <i class='bx bx-check services__model-icon' ></i>
+                                        <p class="services__model-info">
+                                            Good Knowledge of Front End Technologies like <br> HTML , CSS and JavaScript 
+                                        </p>
+                                    </li>
+
+                                    <li class="services__model-item">
+                                        <i class='bx bx-check services__model-icon' ></i>
+                                        <p class="services__model-info">
+                                            Created projects using Bootstrap5 , NodeJS.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__model-item">
+                                        <i class='bx bx-check services__model-icon' ></i>
+                                        <p class="services__model-info">
+                                            Done projects using SQL and MongoDB as database.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__model-item">
+                                        <i class='bx bx-check services__model-icon' ></i>
+                                        <p class="services__model-info">
+                                            Currently learning and improving knowledge on <br> 
+                                            ReactJS , ExpressJS.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--=============== WORK ===============-->
+
+            <section class="work section" id="work">
+                <span class="section__subtitle">My Portfolio</span>
+                <h2 class="section__title">Recent Works</h2>
+
+                <div class="work__filters">
+                    <span class="work__item active-work" data-filter = 'all'>All</span>
+                    <span class="work__item" data-filter = '.web'>Web</span>
+                    <span class="work__item" data-filter = '.gui'>GUI</span>
+                    <span class="work__item" data-filter = '.designs'>Design</span>
+                </div>
+
+                <div class="work__container container grid">
+
+                    <div class="work__card mix gui">
+                        <img src="assets/img/work1.png" alt="" class="work-img">
+                        <h3 class="work__title">Laptop Store GUI Application</h3>
+                        <a href="https://github.com/akashchavan0712/PythonGUIApp" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                    </div>
+                    <div class="work__card mix web">
+                        <img src="assets/img/work2.png" alt="" class="work-img">
+                        <h3 class="work__title">Ecommerce Website</h3>
+                        <a href="https://akashchavan0712.github.io/LaptopStoreWebsite/" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                    </div>
+                    <div class="work__card mix web">
+                        <img src="assets/img/work3.png" alt="" class="work-img">
+                        <h3 class="work__title">Landing Page</h3>
+                        <a href="https://akashchavan0712.github.io/ScrollingEffects/" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                    </div>
+                    <div class="work__card mix web">
+                        <img src="assets/img/work4.png" alt="" class="work-img">
+                        <h3 class="work__title">Tinder Clone</h3>
+                        <a href="https://akashchavan0712.github.io/TinderClone/" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                    </div>
+                    <div class="work__card mix web">
+                        <img src="assets/img/work5.png" alt="" class="work-img">
+                        <h3 class="work__title">Lamp Shop Website</h3>
+                        <a href="https://akashchavan0712.github.io/Lightlamp/" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                    </div>
+                    <div class="work__card mix designs">
+                        <img src="assets/img/work6.png" alt="" class="work-img">
+                        <h3 class="work__title">Admin Dashboard</h3>
+                        <a href="https://akashchavan0712.github.io/AdminDashboard/" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                    </div>
+                    <div class="work__card mix designs">
+                        <img src="assets/img/work7.png" alt="" class="work-img">
+                        <h3 class="work__title">Shopping App Wireframe</h3>
+                        <a href="https://www.figma.com/file/auJNBSARiuQzy5b2cKJDMW/HCI-Assignment-4?node-id=0%3A1" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                    </div>
+                    <div class="work__card mix designs">
+                        <img src="assets/img/work8.png" alt="" class="work-img">
+                        <h3 class="work__title">Macbook Ad Home</h3>
+                        <a href="https://www.figma.com/file/rhGqPH24T9T4Noz3ScdpN4/MacBook-Pro-14-%E2%80%94-Realistic-Mockup-(Community)?node-id=7%3A245" class="work__button">Demo <i class='bx bx-right-arrow-alt work__icon'></i> </a>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!--=============== TESTIMONIALS ===============-->
+            <section class="testimonial section">
+                <span class="section__subtitle">Academics</span>
+                <h2 class="section__title">Education</h2>
+                <div class="testimonial__container container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial__card swiper-slide">
+                            <i class='bx bxs-graduation school-icon'></i>
+                            <h3>University</h3>
+                            <h3 class="testimonial__name">B.E. Information Technology</h3>
+                            <p class="testimonial__description">
+                                Savitribai Phule University , Pune<br>
+                                SGPA : 8.345<br>
+                                Aug 2019 - Present
+                            </p>
+                        </div>
+
+                        <div class="testimonial__card swiper-slide">
+                            <i class='bx bxs-school school-icon'></i>
+                            <h3>Junior College</h3>
+                            <h3 class="testimonial__name">Higher Secondary Certificate (HSC)</h3>
+                            <p class="testimonial__description">
+                                Residential Junior College, Ahmednagar<br>
+                                Percentage : 71.38<br>
+                                March 2017 - Feb 2019
+                            </p>
+                        </div>
+
+                        <div class="testimonial__card swiper-slide">
+                            <i class='bx bx-bus-school school-icon' ></i>
+                            <h3>School</h3>
+                            <h3 class="testimonial__name">Secondary School Certificate (SSC)</h3>
+                            <p class="testimonial__description">
+                                Late. Lalashate Bihani Vidyamandir, Rahuri<br>
+                                Percentage : 91.80<br>
+                                July 2016 - March 2017
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Get in Touch</span>
+                <h2 class="section__title">Contact me</h2>
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to Me</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class='bx bxl-gmail contact__card-icon'></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">akashbchavan17@gmail.com</span>
+                                <a href="mailto:akashbchavan17@gmail.com" target="_blank" class="contact__button">
+                                    Write Me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-whatsapp contact__card-icon' ></i>
+                                <h3 class="contact__card-title">WhatsApp</h3>
+                                <span class="contact__card-data">+91-9834747378</span>
+                                <a href="https://api.whatsapp.com/send?phone=919834747378&text=Hello, more information!" target="_blank" class="contact__button">
+                                    Write Me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-instagram contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Instagram</h3>
+                                <span class="contact__card-data">akash__chavan07</span>
+                                <a href="https://www.instagram.com/akash__chavan07/" target="_blank" class="contact__button">
+                                    Write Me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <h3 class="contact__title">Write Me Your Projects</h3>
+                        <form action="https://formsubmit.co/akashbchavan17@gmail.com"  method = "POST" class = "contact__form">
+                            <div class="contact__form-div">
+                                <label for=""  class="contact__form-tag">Name</label>
+                                <input type="text" placeholder="Please enter your name" name="Name" required class="contact__form-input">
+                            </div>
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Email</label>
+                                <input type="text" placeholder="Please enter your email" name="Email" required class="contact__form-input">
+                            </div>
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Project</label>
+                                <textarea name="Message" id="whatever" cols="30" rows="10" placeholder = "Write Your Project Description" class="contact__form-input"></textarea>
+                            </div>
+                            <button type = "submit" class="button">Send Me</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main> 
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer"> 
+            <div class="footer__container container">
+                <h1 class="footer__title">Akash Chavan</h1>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="footer__link">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/profile.php?id=100010846470238" class="footer__social-link">
+                        <i class='bx bxl-facebook-square' ></i>
+                    </a>
+                    <a href="https://www.instagram.com/akash__chavan07/" class="footer__social-link">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                    <a href="https://twitter.com/AkashChavan0712" class="footer__social-link">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Akash Chavan. All rigths reserved
+                </span>
+
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
